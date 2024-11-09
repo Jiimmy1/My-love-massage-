@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حب حياتي</title>
+    <style>
+        body {
+            background-color: #f7e4e4;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .message-container {
+            text-align: center;
+            color: #c2185b;
+            padding: 20px;
+            max-width: 500px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-radius: 10px;
+        }
+        .heart {
+            font-size: 2rem;
+            color: #ff4081;
+        }
+        .message {
+            font-size: 1.5rem;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="message-container">
+        <p class="message">لسا بحبك يوررتي العسولة الجميلة القطقوطة</p>
+        <p class="message">ومهما عشت طول حياتي بدور وبفكر والف عشان الاقي حظ يشبهك اصلا مش بلاقي ولا خلاقي فاقبلي الصلح عشان انتي هي حبيبتي <span class="heart">💍</span></p>
+    </div>
+</body>
+</html>
