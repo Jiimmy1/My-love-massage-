@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>حب حياتي</title>
+    <title>رسالة حب مش تقليدية</title>
     <style>
         body {
-            background-color: #f7e4e4;
+            background-color: #fff4f4;
             font-family: 'Arial', sans-serif;
             display: flex;
             align-items: center;
@@ -17,26 +17,35 @@
         .message-container {
             text-align: center;
             color: #c2185b;
-            padding: 20px;
-            max-width: 500px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            max-width: 550px;
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
             background-color: #fff;
-            border-radius: 10px;
+            border-radius: 15px;
+            border: 2px dashed #ff80ab;
         }
         .heart {
             font-size: 2rem;
             color: #ff4081;
+            animation: heartbeat 1s infinite;
         }
         .message {
-            font-size: 1.5rem;
-            line-height: 1.6;
+            font-size: 1.4rem;
+            line-height: 1.8;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.3); }
+            100% { transform: scale(1); }
         }
     </style>
 </head>
 <body>
     <div class="message-container">
-        <p class="message">لسا بحبك يوررتي العسولة الجميلة القطقوطة</p>
-        <p class="message">ومهما عشت طول حياتي بدور وبفكر والف عشان الاقي حظ يشبهك اصلا مش بلاقي ولا خلاقي فاقبلي الصلح عشان انتي هي حبيبتي <span class="heart">💍</span></p>
+        <p class="message">لسا بحبك يا يوررتي القمر القطقوطة الكيوت اللي بتضحك ضحكة تنوّرلي يومي كله</p>
+        <p class="message">يعني مهما أدور في الكوكب مش هلاقي حد بمزاجك، بجمالك، بغلاستك أحياناً بس برضو بحبها</p>
+        <p class="message">فـ إيه رأيك نبدأ صفحة جديدة؟ أنا أضحكك، وأنتي تسامحيني، ونعمل ريستارت بس المرة دي قلبي معاكي رسمي <span class="heart">💘</span></p>
+        <p class="message">وبالمناسبة... لو رفضتي، هبعتلك رسالة كل يوم بصوتي بقول "وحشتيني" لحد ما تقولي آه!</p>
     </div>
 </body>
 </html>
